@@ -1,7 +1,7 @@
 import useSWR from "swr";
 import MET from "./components/MET.tsx";
 import styled from "styled-components";
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 interface MuseumItem {
   objectID: number;
